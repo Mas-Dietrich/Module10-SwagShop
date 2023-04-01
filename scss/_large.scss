@@ -14,7 +14,7 @@ header {
 /*----------- NAVIGATION --------------*/
 #hamburgerBtn {display: none;}
 nav {
-        background: $secondaryColor;
+        background: $primaryColor;
         position: static;
         transform: translateX(0);
         width: auto;
@@ -33,10 +33,10 @@ nav {
                 color: white;
         }
 
-        ul li a:hover {background: lighten($secondaryColor, 20%);
-        color: black;}
+        ul li a:hover {background: lighten($primaryColor, 20%);
+        color: white;}
 
-        li.active a {color: white; background: darken($secondaryColor, 10%);}
+        li.active a {color: white; background: darken($primaryColor, 10%);}
 }
 
 

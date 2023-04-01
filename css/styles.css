@@ -483,7 +483,7 @@ form label.top input:required:valid {
 
 /*----------- FOOTER --------------*/
 footer {
-  background-color: #171738;
+  background-color: #9c2c13;
   color: white;
   padding: 0.5rem 2%;
   text-align: center;
@@ -511,7 +511,7 @@ footer {
     display: none;
   }
   nav {
-    background: #171738;
+    background: #9c2c13;
     position: static;
     transform: translateX(0);
     width: auto;
@@ -532,12 +532,12 @@ footer {
     color: white;
   }
   nav ul li a:hover {
-    background: #353580;
-    color: black;
+    background: #e6512f;
+    color: white;
   }
   nav li.active a {
     color: white;
-    background: #080814;
+    background: #6f1f0d;
   }
   /*----------- MAIN --------------*/
   form label.sbs {
