@@ -1,0 +1,50 @@
+header, nav, main, footer {
+        max-width: 64rem;
+        margin:auto;
+}
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+header {
+        grid-template-columns: 1fr 1fr 1fr;
+}
+/*----------- NAVIGATION --------------*/
+#hamburgerBtn {display: none;}
+nav {
+        background: $secondaryColor;
+        position: static;
+        transform: translateX(0);
+        width: auto;
+        div {display: none;}
+        ul {
+                display: flex;
+                margin-left: 2%;
+                border-left: 1px solid rgba(0,0,0,0.2);
+                margin: 0;
+        }
+
+        ul li a {
+                border: none;
+                border-right: 1px solid rgba(0,0,0,0.2);
+                padding: .6rem 1.5rem;
+                color: white;
+        }
+
+        ul li a:hover {background: lighten($secondaryColor, 20%);
+        color: black;}
+
+        li.active a {color: white; background: darken($secondaryColor, 10%);}
+}
+
+
+/*----------- MAIN --------------*/
+
+form label.sbs {
+        padding: .4rem 0;
+}
+
+/*----------- FOOTER --------------*/
+    
