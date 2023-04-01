@@ -394,7 +394,7 @@ nav ul li a {
   color: black;
 }
 nav ul li a:hover {
-  background-color: #13839C;
+  background-color: #171738;
   color: #eee;
 }
 nav li.active a {
@@ -408,13 +408,13 @@ main {
 }
 main h1 {
   font-weight: 700;
-  color: #13839C;
+  color: #171738;
 }
 
 /*----------- FORM --------------*/
 form fieldset {
   margin: 2rem 0;
-  border: 1px solid #13839C;
+  border: 1px solid #171738;
   border-radius: 10px;
   padding: 0.5rem 2%;
   box-shadow: 10px 10px 5px #aaaaaa;
@@ -422,7 +422,7 @@ form fieldset {
 }
 
 form legend {
-  color: #13839C;
+  color: #171738;
   margin: 0 1rem;
   padding: 0 0.5rem;
 }
@@ -470,7 +470,7 @@ form input.submitBtn {
 form input.submitBtn:hover {
   box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
   transform: translateY(-7px);
-  background-color: #13839C;
+  background-color: #171738;
 }
 
 form label.top input:required {
@@ -483,7 +483,7 @@ form label.top input:required:valid {
 
 /*----------- FOOTER --------------*/
 footer {
-  background-color: #13839C;
+  background-color: #171738;
   color: white;
   padding: 0.5rem 2%;
   text-align: center;
@@ -511,7 +511,7 @@ footer {
     display: none;
   }
   nav {
-    background: #13839C;
+    background: #171738;
     position: static;
     transform: translateX(0);
     width: auto;
@@ -532,12 +532,12 @@ footer {
     color: white;
   }
   nav ul li a:hover {
-    background: #2fc4e6;
+    background: #353580;
     color: black;
   }
   nav li.active a {
     color: white;
-    background: #0d5d6f;
+    background: #080814;
   }
   /*----------- MAIN --------------*/
   form label.sbs {
